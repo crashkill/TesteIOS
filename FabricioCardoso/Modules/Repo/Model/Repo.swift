@@ -19,14 +19,13 @@ class RepoSearch {
         
         print("URL: ",URL)
         
-        // TODO
-        // Tratar se é places ou app
         Alamofire.request(URL).responseObject { (response: DataResponse<Itens>) in
-            
             
             var model: Itens = Itens()
             let response = response.result.value
             
+            // TODO
+            // Implementar o parse do Json
             if(response != nil){
                 model = (response!)
             }

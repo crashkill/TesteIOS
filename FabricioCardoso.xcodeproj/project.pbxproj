@@ -18,6 +18,12 @@
 		E51A487E1E5B813700D29A83 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51A487D1E5B813700D29A83 /* Repo.swift */; };
 		E51A488B1E5B8A0700D29A83 /* PullRequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51A488A1E5B8A0700D29A83 /* PullRequestTableViewController.swift */; };
 		E51A488D1E5B8A1E00D29A83 /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51A488C1E5B8A1E00D29A83 /* PullRequest.swift */; };
+		E51A488F1E5C7DEB00D29A83 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51A488E1E5C7DEB00D29A83 /* SDWebImage.framework */; };
+		E51A48AC1E5C808900D29A83 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E51A48A41E5C808900D29A83 /* SVIndefiniteAnimatedView.m */; };
+		E51A48AD1E5C808900D29A83 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E51A48A61E5C808900D29A83 /* SVProgressAnimatedView.m */; };
+		E51A48AE1E5C808900D29A83 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E51A48A71E5C808900D29A83 /* SVProgressHUD.bundle */; };
+		E51A48AF1E5C808900D29A83 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E51A48A91E5C808900D29A83 /* SVProgressHUD.m */; };
+		E51A48B01E5C808900D29A83 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E51A48AB1E5C808900D29A83 /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +76,17 @@
 		E51A487D1E5B813700D29A83 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Repo.swift; path = Modules/Repo/Model/Repo.swift; sourceTree = "<group>"; };
 		E51A488A1E5B8A0700D29A83 /* PullRequestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PullRequestTableViewController.swift; path = Modules/Repo/PullRequestTableViewController.swift; sourceTree = "<group>"; };
 		E51A488C1E5B8A1E00D29A83 /* PullRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
+		E51A488E1E5C7DEB00D29A83 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		E51A48931E5C7FF000D29A83 /* FabricioCardoso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FabricioCardoso-Bridging-Header.h"; sourceTree = "<group>"; };
+		E51A48A31E5C808900D29A83 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E51A48A41E5C808900D29A83 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E51A48A51E5C808900D29A83 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		E51A48A61E5C808900D29A83 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E51A48A71E5C808900D29A83 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E51A48A81E5C808900D29A83 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		E51A48A91E5C808900D29A83 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		E51A48AA1E5C808900D29A83 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		E51A48AB1E5C808900D29A83 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51A488F1E5C7DEB00D29A83 /* SDWebImage.framework in Frameworks */,
 				BA2E92D301588EB25E0D01ED /* Pods_FabricioCardoso.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +128,7 @@
 		8CBF94B8325C6AA812DAB11F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E51A488E1E5C7DEB00D29A83 /* SDWebImage.framework */,
 				BBCD1DAF134DD83A498421F1 /* Pods_FabricioCardoso.framework */,
 			);
 			name = Frameworks;
@@ -141,11 +160,13 @@
 			isa = PBXGroup;
 			children = (
 				E51A484A1E5B7C6000D29A83 /* AppDelegate.swift */,
-				E51A484E1E5B7C6000D29A83 /* Main.storyboard */,
 				E51A48511E5B7C6000D29A83 /* Assets.xcassets */,
-				E51A48531E5B7C6000D29A83 /* LaunchScreen.storyboard */,
 				E51A48561E5B7C6000D29A83 /* Info.plist */,
+				E51A48531E5B7C6000D29A83 /* LaunchScreen.storyboard */,
+				E51A484E1E5B7C6000D29A83 /* Main.storyboard */,
 				E51A487A1E5B80B100D29A83 /* Modules */,
+				E51A48901E5C7F6C00D29A83 /* Suport */,
+				E51A48931E5C7FF000D29A83 /* FabricioCardoso-Bridging-Header.h */,
 			);
 			path = FabricioCardoso;
 			sourceTree = "<group>";
@@ -201,6 +222,30 @@
 				E51A488A1E5B8A0700D29A83 /* PullRequestTableViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		E51A48901E5C7F6C00D29A83 /* Suport */ = {
+			isa = PBXGroup;
+			children = (
+				E51A48A21E5C808900D29A83 /* SVProgressHUD */,
+			);
+			name = Suport;
+			sourceTree = "<group>";
+		};
+		E51A48A21E5C808900D29A83 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E51A48A31E5C808900D29A83 /* SVIndefiniteAnimatedView.h */,
+				E51A48A41E5C808900D29A83 /* SVIndefiniteAnimatedView.m */,
+				E51A48A51E5C808900D29A83 /* SVProgressAnimatedView.h */,
+				E51A48A61E5C808900D29A83 /* SVProgressAnimatedView.m */,
+				E51A48A71E5C808900D29A83 /* SVProgressHUD.bundle */,
+				E51A48A81E5C808900D29A83 /* SVProgressHUD.h */,
+				E51A48A91E5C808900D29A83 /* SVProgressHUD.m */,
+				E51A48AA1E5C808900D29A83 /* SVRadialGradientLayer.h */,
+				E51A48AB1E5C808900D29A83 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +365,7 @@
 				E51A48551E5B7C6000D29A83 /* LaunchScreen.storyboard in Resources */,
 				E51A48521E5B7C6000D29A83 /* Assets.xcassets in Resources */,
 				E51A48501E5B7C6000D29A83 /* Main.storyboard in Resources */,
+				E51A48AE1E5C808900D29A83 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +439,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51A488D1E5B8A1E00D29A83 /* PullRequest.swift in Sources */,
+				E51A48B01E5C808900D29A83 /* SVRadialGradientLayer.m in Sources */,
+				E51A48AF1E5C808900D29A83 /* SVProgressHUD.m in Sources */,
 				E51A488B1E5B8A0700D29A83 /* PullRequestTableViewController.swift in Sources */,
 				E51A48791E5B80A700D29A83 /* RepoTableViewController.swift in Sources */,
+				E51A48AD1E5C808900D29A83 /* SVProgressAnimatedView.m in Sources */,
 				E51A484B1E5B7C6000D29A83 /* AppDelegate.swift in Sources */,
 				E51A487E1E5B813700D29A83 /* Repo.swift in Sources */,
+				E51A48AC1E5C808900D29A83 /* SVIndefiniteAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,10 +600,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8S4NM556R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				INFOPLIST_FILE = FabricioCardoso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fabriciocardosolima-gmail.com.FabricioCardoso";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FabricioCardoso/FabricioCardoso-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -564,10 +619,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8S4NM556R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				INFOPLIST_FILE = FabricioCardoso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fabriciocardosolima-gmail.com.FabricioCardoso";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FabricioCardoso/FabricioCardoso-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

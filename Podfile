@@ -8,5 +8,6 @@ target 'FabricioCardoso' do
   # Pods for FabricioCardoso
   pod 'Alamofire', '~> 4.0'
   pod 'AlamofireObjectMapper', '~> 4.0'
+  pod 'SDWebImage', '~>3.8'
   
 end

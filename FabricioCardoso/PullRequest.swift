@@ -19,8 +19,6 @@ class PullRequestSearch {
         
         print("URL: ",URL)
         
-        // TODO
-        // Tratar se é places ou app
         Alamofire.request(URL).responseObject { (response: DataResponse<PullRequest>) in
             
             
@@ -74,21 +72,3 @@ class User: Mappable {
     }
         
 }
-//
-//class Repo: Mappable {
-//    
-//    var id: Int?
-//    var name: String?
-//    var full_name: String?
-//    
-//    required convenience init?(map: Map)
-//    {
-//        self.init()
-//    }
-//    
-//    func mapping(map: Map) {
-//        id <- map["id"]
-//        name <- map["name"]
-//        full_name <- map["full_name"]
-//    }
-//}

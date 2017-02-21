@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class RepoTableViewController: UITableViewController {
 
@@ -16,12 +17,18 @@ class RepoTableViewController: UITableViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-
+        
+        // Show Loading
+        SVProgressHUD.show()
+        
         DispatchQueue.global(qos: .userInitiated).async {
             
             RepoSearch.search(page: "1", completionHandler: {tempPesquisa,fail in
                 
                 DispatchQueue.main.async {
+                    
+                    // Hide Loading
+                    SVProgressHUD.dismiss()
                     
                     if(fail != nil){
                         
@@ -57,13 +64,17 @@ class RepoTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        // TODO Custom CELL
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         let iten:Repo = self.list.repo![indexPath.row]
         
         cell.textLabel?.text = iten.name
         cell.detailTextLabel?.text = iten.full_name
-        cell.imageView?.image = iten.avatar_url
+        
+        // TODO acertar imagem
+        // cell.imageView.sd_setImage(with: URL(string: iten.avatar_url!), placeholderImage: UIImage(named: "placeholder.png"))
 
         return cell
     }
